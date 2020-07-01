@@ -67,32 +67,32 @@ var nameget_q2 = {
 //教示文を読んで入力してもらう
 var iat_instruction_test = {
   type: "html-keyboard-response",
-  stimulus:"<img src='Picture03.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>練習です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>または<b>「虫」</b>のカテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
+  stimulus:"<img src='https://kodai0218.github.io/iat-self-esteem/Picture03.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>練習です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>または<b>「虫」</b>のカテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
   choices: ["space"]
 };
 
 var iat_instruction = {
   type: "html-keyboard-response",
-  stimulus:"<img src='Picture05.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>本番です</p>"+"<p style = 'font-size: 2em;'><b>左右のカテゴリーが変わっています</b></p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>または<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
+  stimulus:"<img src='https://kodai0218.github.io/iat-self-esteem/Picture05.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>本番です</p>"+"<p style = 'font-size: 2em;'><b>左右のカテゴリーが変わっています</b></p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>または<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
   choices: ["space"]
 };
 
 var iat_brakegood = {
   type: "html-keyboard-response",
-  stimulus:"<img src='Picture05.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>休憩です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>または<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の「わるい」のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
+  stimulus:"<img src='https://kodai0218.github.io/iat-self-esteem/Picture05.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>休憩です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>または<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の「わるい」のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
   choices: ["space"]
 };
 
 
 var iat_brakechange = {
   type: "html-keyboard-response",
-  stimulus:"<img src='Picture06.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>休憩です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p style = 'font-size: 2em;'><b>左右のカテゴリーが変わっています</b></p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>カテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>又は<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
+  stimulus:"<img src='https://kodai0218.github.io/iat-self-esteem/Picture06.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>休憩です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p style = 'font-size: 2em;'><b>左右のカテゴリーが変わっています</b></p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>カテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>又は<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
   choices: ["space"]
 };
 
 var iat_brakebad = {
   type: "html-keyboard-response",
-  stimulus:"<img src='Picture06.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>休憩です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>カテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>または<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
+  stimulus:"<img src='https://kodai0218.github.io/iat-self-esteem/Picture06.png' width='60%'>"+"<p style = 'font-size:1.5em; text-align: center'>休憩です</p>"+"<p>キーボードを利用した単語の分類課題を行います。</p>"+"<p>画面中央に表示される単語が、左上の<b>「よい」</b>カテゴリーに当てはまると思ったら<b>「E」</b>キーを、<br>右上の<b>「わるい」</b>または<b>「自己」</b>のカテゴリーに当てはまると思ったら<b>「I」</b>キーを押してください。</p>"+ "<p><b>左右のカテゴリーは固定で、中央の単語が変わります。</b></p>"+"<p>間違えるとX（バツ）が中央に表示されるので、押したキーと反対のキーを押してください</br><b>スペースキー</b>を押すと開始します。</p>"+"<p style = 'font-size: 1.5em;'>単語が表示されたら、なるべく早く回答してください。</p>",
   choices: ["space"]
 };
 
@@ -522,312 +522,6 @@ var trial01_main02 = {
 
 
 
-// SC-IAT：研究3バージョン
-//Block1:self+good vs bad
-var trial03_prac01 = {
-  timeline:[
-    {
-      type: 'iat-html',
-      stimulus: jsPsych.timelineVariable('stimulus'),
-      stim_key_association: jsPsych.timelineVariable('stim_key_association'),
-      html_when_wrong: '<span style="color: red; font-size: 80px">X</span>',
-      bottom_instructions: '<p>間違えるとバツが表示されます。バツが表示されたら反対のキーを押してください</p>',
-      force_correct_key_press: true,
-      display_feedback: true,
-      left_category_key: 'E',
-      right_category_key: 'I',
-      left_category_label: ["よい", "自己"],
-      right_category_label: ["わるい"],
-      response_ends_trial: true
-    }
-    ],
-  //IATで使う刺激
-  timeline_variables: [
-  {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "愚かな", stim_key_association: "right"},
-    {stimulus: "自分", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-    {stimulus: "自身", stim_key_association: "left"},
-    {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "自分", stim_key_association: "left"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "自身", stim_key_association: "left"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-    {stimulus: "わたしの", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "わたしの", stim_key_association: "left"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "私", stim_key_association: "left"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "愚かな", stim_key_association: "right"},
-    {stimulus: "私", stim_key_association: "left"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "愚かな", stim_key_association: "right"},
-    {stimulus: "素晴らしい", stim_key_association: "left"}
-
-    ],
-  repetitions: 1,
-  on_finish: function(data){
-    namedo = "abc"
-    jsPsych.data.addProperties({
-    name01: namedo,
-    name02: namedo});
-  }
-};
-
-
-//Block3:self+bad
-var trial03_prac02 = {
-  timeline:[
-    {
-      type: 'iat-html',
-      stimulus: jsPsych.timelineVariable('stimulus'),
-      stim_key_association: jsPsych.timelineVariable('stim_key_association'),
-      html_when_wrong: '<span style="color: red; font-size: 80px">X</span>',
-      bottom_instructions: '<p>間違えるとバツが表示されます。バツが表示されたら反対のキーを押してください</p>',
-      force_correct_key_press: true,
-      display_feedback: true,
-      left_category_key: 'E',
-      right_category_key: 'I',
-      left_category_label: ["よい"],
-      right_category_label: ["わるい", "自己"],
-      response_ends_trial: true
-    }
-    ],
-  //IATで使う刺激
-  timeline_variables: [
-  {stimulus: "わたしの", stim_key_association: "right"},
-  {stimulus: "私", stim_key_association: "right"},
-  {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "自分", stim_key_association: "right"},
-  {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "美しい", stim_key_association: "left"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"},
-  {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "わたしの", stim_key_association: "right"},
-  {stimulus: "美しい", stim_key_association: "left"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "自身", stim_key_association: "right"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "美しい", stim_key_association: "left"},
-  {stimulus: "私", stim_key_association: "right"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "自身", stim_key_association: "right"},
-  {stimulus: "自分", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"}
-    ],
-  repetitions: 1
-};
-
-//main1:self+good vs bad
-var trial03_main01 = {
-  timeline:[
-    {
-      type: 'iat-html',
-      stimulus: jsPsych.timelineVariable('stimulus'),
-      stim_key_association: jsPsych.timelineVariable('stim_key_association'),
-      html_when_wrong: '<span style="color: red; font-size: 80px">X</span>',
-      bottom_instructions: '<p>間違えるとバツが表示されます。バツが表示されたら反対のキーを押してください</p>',
-      force_correct_key_press: true,
-      display_feedback: true,
-      left_category_key: 'E',
-      right_category_key: 'I',
-      left_category_label: ["よい", "自己"],
-      right_category_label: ["わるい"],
-      response_ends_trial: true
-    }
-    ],
-  //IATで使う刺激
-  timeline_variables: [
-    {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "自身", stim_key_association: "left"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"},
-  {stimulus: "私", stim_key_association: "left"},
-  {stimulus: "わたしの", stim_key_association: "left"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-   {stimulus: "美しい", stim_key_association: "left"},
-   {stimulus: "愚かな", stim_key_association: "right"},
-   {stimulus: "わたしの", stim_key_association: "left"},
-   {stimulus: "自身", stim_key_association: "left"},
-  {stimulus: "私", stim_key_association: "left"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "自分", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "美しい", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "自分", stim_key_association: "left"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "自分", stim_key_association: "left"},
-  {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "自身", stim_key_association: "left"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "私", stim_key_association: "left"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "自分", stim_key_association: "left"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "自身", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "わたしの", stim_key_association: "left"},
-  {stimulus: "美しい", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "私", stim_key_association: "left"},
-  {stimulus: "汚い", stim_key_association: "right"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "美しい", stim_key_association: "left"},
-  {stimulus: "ひどい", stim_key_association: "right"},
-  {stimulus: "自分", stim_key_association: "left"},
-  {stimulus: "卑しい", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "私", stim_key_association: "left"},
-  {stimulus: "わたしの", stim_key_association: "left"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "自身", stim_key_association: "left"},
-  {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "美しい", stim_key_association: "left"},
-  {stimulus: "すてきな", stim_key_association: "left"},
-  {stimulus: "愚かな", stim_key_association: "right"},
-  {stimulus: "素晴らしい", stim_key_association: "left"},
-  {stimulus: "わたしの", stim_key_association: "left"},
-  {stimulus: "優秀な", stim_key_association: "left"},
-  {stimulus: "ひどい", stim_key_association: "right"}
-    ],
-  repetitions: 1
-};
-
-
-//Block4:self+bad
-var trial03_main02 = {
-  timeline:[
-    {
-      type: 'iat-html',
-      stimulus: jsPsych.timelineVariable('stimulus'),
-      stim_key_association: jsPsych.timelineVariable('stim_key_association'),
-      html_when_wrong: '<span style="color: red; font-size: 80px">X</span>',
-      bottom_instructions: '<p>間違えるとバツが表示されます。バツが表示されたら反対のキーを押してください</p>',
-      force_correct_key_press: true,
-      display_feedback: true,
-      left_category_key: 'E',
-      right_category_key: 'I',
-      left_category_label: ["よい"],
-      right_category_label: ["わるい", "自己"],
-      response_ends_trial: true
-    }
-    ],
-  //IATで使う刺激
-  timeline_variables: [
-    {stimulus: "私", stim_key_association: "right"},
-    {stimulus: "自身", stim_key_association: "right"},
-    {stimulus: "愚かな", stim_key_association: "right"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "わたしの", stim_key_association: "right"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "愚かな", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "わたしの", stim_key_association: "right"},
-    {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-     {stimulus: "わたしの", stim_key_association: "right"},
-    {stimulus: "愚かな", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-     {stimulus: "私", stim_key_association: "right"},
-    {stimulus: "自分", stim_key_association: "right"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "自分", stim_key_association: "right"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-     {stimulus: "自身", stim_key_association: "right"},
-    {stimulus: "私", stim_key_association: "right"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "自分", stim_key_association: "right"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "自分", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "汚い", stim_key_association: "right"},
-    {stimulus: "私", stim_key_association: "right"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "わたしの", stim_key_association: "right"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "自身", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "自分", stim_key_association: "right"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "わたしの", stim_key_association: "right"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "ひどい", stim_key_association: "right"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "愚かな", stim_key_association: "right"},
-    {stimulus: "優秀な", stim_key_association: "left"},
-    {stimulus: "自身", stim_key_association: "right"},
-    {stimulus: "素晴らしい", stim_key_association: "left"},
-    {stimulus: "すてきな", stim_key_association: "left"},
-    {stimulus: "自身", stim_key_association: "right"},
-    {stimulus: "美しい", stim_key_association: "left"},
-    {stimulus: "私", stim_key_association: "right"},
-    {stimulus: "卑しい", stim_key_association: "right"},
-    {stimulus: "愚かな", stim_key_association: "right"}
-    ],
-  repetitions: 1
-};
-
 var experimentend = {
     type: 'instructions',
     pages: ["<p>課題は以上で全てになります。お疲れ様でした</p>"+"<p>次へを押していただくと、クラウドワークスの支払コード欄に記入していただく文字列が表示されます。</p>"
@@ -835,15 +529,10 @@ var experimentend = {
     allow_backward: false,
     show_clickable_nav: true,
     button_label_next: "次へ",
-    on_finish: function() {
-    firebase.database().ref(exp_id).set({
-      data: jsPsych.data.get().values()
-    })
-   }
 };
 
 var endmessage = {
-    type: 'instructions',
+    type: 'instructions'
     pages: ["<p>調査にご協力いただき、どうもありがとうございました。調査終了後、以下の8桁の文字列をクラウドワークスの支払コード欄に記入して作業を完了させてください。</p>"+"<p>入力間違い防止のため、必ずコピー＆ペーストしてください。正しく記入されたことが確認できた場合に、報酬をお支払いします。</p>"+ r_num +"<p>ただし、上記コードを間違いなく納品して下さっても、ご回答の性別がクラウドワークスでのご登録と異なる場合、</br>いくつかの項目へのご回答が不適切だった場合には、謝礼をお支払いできませんので，あしからずご了承下さい</p>" + "<p>「次へ」をクリックして画面が白転してから、ウィンドウを閉じてください。</p>"
     ],
     allow_backward: false,
@@ -851,36 +540,6 @@ var endmessage = {
     button_label_next: "次へ"
 
 };
-
-
-
-//条件分け関数の用意
-var if_node1 = {
-    timeline: [nameget_q1, nameget_q2, iat_instruction_test,  trial_test01, iat_instruction, trial01_prac01, iat_brakegood, trial01_main01, iat_brakechange, trial01_prac02, iat_brakebad, trial01_main02],
-    conditional_function: function(){
-        // get the data from the previous trial,
-        // and check which key was pressed
-        if((random) == 0){
-            return true;
-        } else {
-            return false;
-        }
-    }
-}
-
-
-var if_node3 = {
-    timeline: [iat_instruction_test, trial_test01, iat_instruction, trial03_prac01, iat_brakegood, trial03_main01, iat_brakechange, trial03_prac02, iat_brakebad, trial03_main02],
-    conditional_function: function(){
-        // get the data from the previous trial,
-        // and check which key was pressed
-        if((random) == 1){
-            return true;
-        } else {
-            return false;
-        }
-    }
-}
 
 
 
@@ -896,8 +555,20 @@ timeline.push({
 });
 
 
-timeline.push(if_node1);
-timeline.push(if_node3);
+timeline.push(nameget_q1);
+timeline.push(nameget_q2);
+timeline.push(iat_instruction_test);
+timeline.push(trial_test01);
+timeline.push(iat_instruction);
+timeline.push(trial01_prac01);
+timeline.push(iat_brakegood);
+timeline.push(trial01_main01);
+timeline.push(iat_brakechange);
+timeline.push(trial01_prac02);
+timeline.push(iat_brakebad);
+timeline.push(trial01_main02);
+
+
 
 timeline.push({
   type: 'fullscreen',
