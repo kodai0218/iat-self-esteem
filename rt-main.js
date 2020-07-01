@@ -531,17 +531,6 @@ var experimentend = {
     button_label_next: "次へ",
 };
 
-var endmessage = {
-    type: 'instructions'
-    pages: ["<p>調査にご協力いただき、どうもありがとうございました。調査終了後、以下の8桁の文字列をクラウドワークスの支払コード欄に記入して作業を完了させてください。</p>"+"<p>入力間違い防止のため、必ずコピー＆ペーストしてください。正しく記入されたことが確認できた場合に、報酬をお支払いします。</p>"+ r_num +"<p>ただし、上記コードを間違いなく納品して下さっても、ご回答の性別がクラウドワークスでのご登録と異なる場合、</br>いくつかの項目へのご回答が不適切だった場合には、謝礼をお支払いできませんので，あしからずご了承下さい</p>" + "<p>「次へ」をクリックして画面が白転してから、ウィンドウを閉じてください。</p>"
-    ],
-    allow_backward: false,
-    show_clickable_nav: true,
-    button_label_next: "次へ"
-
-};
-
-
 
 
 /* 実験の提示の順番 */
@@ -578,4 +567,3 @@ timeline.push({
 
 
 timeline.push(experimentend);
-timeline.push(endmessage);
