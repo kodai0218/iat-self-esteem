@@ -110,7 +110,7 @@ var trial_test01 = {
       display_feedback: true,
       left_category_key: 'E',
       right_category_key: 'I',
-      left_category_label: ["よい","虫"],
+      left_category_label: ["よい</br>虫"],
       right_category_label: ["わるい"],
       response_ends_trial: true
     }
@@ -149,7 +149,7 @@ var trial01_prac01 = {
       display_feedback: true,
       left_category_key: 'E',
       right_category_key: 'I',
-      left_category_label: ["よい","自己"],
+      left_category_label: ["よい</br>自己"],
       right_category_label: ["わるい"],
       response_ends_trial: true
     }
@@ -216,7 +216,7 @@ var trial01_prac02 = {
       left_category_key: 'E',
       right_category_key: 'I',
       left_category_label: ["よい"],
-      right_category_label: ["わるい","自己"],
+      right_category_label: ["わるい</br>自己"],
       response_ends_trial: true
     }
     ],
@@ -279,7 +279,7 @@ var trial01_main01 = {
       display_feedback: true,
       left_category_key: 'E',
       right_category_key: 'I',
-      left_category_label: ["よい", "自分"],
+      left_category_label: ["よい</br>自分"],
       right_category_label: ["わるい"],
       response_ends_trial: true
     }
@@ -407,7 +407,7 @@ var trial01_main02 = {
       left_category_key: 'E',
       right_category_key: 'I',
       left_category_label: ["よい"],
-      right_category_label: ["わるい", "自己"],
+      right_category_label: ["わるい</br>自己"],
       response_ends_trial: true
     }
     ],
@@ -524,7 +524,7 @@ var trial01_main02 = {
 
 var experimentend = {
     type: 'instructions',
-    pages: ["<p>課題は以上で全てになります。お疲れ様でした</p>"+"<p>次へを押していただくと、クラウドワークスの支払コード欄に記入していただく文字列が表示されます。</p>"
+    pages: ["<p>課題は以上で全てになります。お疲れ様でした</p>"+"<p>次へを押してください。</p>"
     ],
     allow_backward: false,
     show_clickable_nav: true,
