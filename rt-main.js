@@ -524,7 +524,7 @@ var trial01_main02 = {
 
 var experimentend = {
     type: 'instructions',
-    pages: ["<p>課題は以上で全てになります。お疲れ様でした</p>"+"<p>次へを押してください。</p>"
+    pages: ["<p>お疲れ様でした。次の課題へ移ります。</p>"+"<p>次へを押してください。</p>"
     ],
     allow_backward: false,
     show_clickable_nav: true,
